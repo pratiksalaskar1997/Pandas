@@ -5,8 +5,8 @@ A Data frame is a two-dimensional data structure, i.e., data is aligned in a tab
 Pandas DataFrame consists of three principal components, the data, rows, and columns.
 
 This are the important steps while working with data in pandas: 
-Creating a DataFrame
-Dealing with Rows and Columns
-Indexing and Selecting Data
-Working with Missing Data
-Iterating over rows and columns
+1.Creating a DataFrame
+2.Dealing with Rows and Columns
+3.Indexing and Selecting Data
+4.Working with Missing Data
+5.Iterating over rows and columns
