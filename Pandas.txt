@@ -1,0 +1,31 @@
+
+import pandas as pd
+import numpy as np
+
+data = {'Name':['pratik','pranay','rushi','pradeep','vidya'],'Marks':[99,98,97,96,99],'Age':[24,25,24,30,28]}
+
+data
+
+df = pd.DataFrame(data)
+df
+
+df.sum(axis=0)# default it is axis=0 (columnwise)
+
+df.sum(axis=1) # rowwise summation
+
+df[['Name','Marks']].sum() # get sum of marks, name
+
+df.drop(columns='Age').sum()  # get sum of marks, name
+
+df.loc[:,['Name','Marks']].sum()  # get sum of marks, name
+
+df.iloc[:,:2].sum()  # get sum of marks, name
+
+df.Age.sum(),df.Name.sum()  # get sum of marks, name
+
+df.Age.value_counts() # count occurance in Age column
+
+df.select_dtypes(['int']) # integer valuue which present in cilumn will get
+
+df[['Name','Marks']].cummax() # cummulative max
+
